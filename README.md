@@ -27,13 +27,13 @@ Pushing to ACR doesn't work at the moment, because I was unable to create a reso
 `docker push flaskdockerdemoacr.azurecr.io/my-flask-app:latest`
 
 ## Deploy Flask Image to Azure App Service
-1. Go to Azure portal
+1. Go to Azure portal, navigate to App Service
 2. Create a resource
 3. Web app
 4. Choose the right registry, input the image name, and the tag (lastest)
-5. Add the environment variables for PostgreSQL and restart the app service
+5. Add the environment variables for PostgreSQL via connection strings and restart the app service
 
-## Successfully Deployed on Azure
+## Demo
 See the demo link: https://flaskdockerdemo-fdetcmbqd4aecjcw.eastus2-01.azurewebsites.net/
 
 API endpoints:
